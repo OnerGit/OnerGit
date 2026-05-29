@@ -43,7 +43,7 @@ Related writing: [AI-Assisted Development Is Not Autopilot](https://dev.to/bob_o
 * [Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker](https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld)
   A step-by-step project walkthrough for building a small CSV quality-checking API with FastAPI, pandas, pytest, and Docker.
 
-* [Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations]([https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations](https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765))
+* [Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations]([https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations](https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765)
   A browser-tool project note focused on local UI enhancement, userscript boundaries, and privacy-first design.
 
 ## Technical interests
