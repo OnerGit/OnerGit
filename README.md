@@ -21,19 +21,30 @@ A minimal FastAPI service that accepts CSV uploads and returns a structured JSON
 
 The project demonstrates a lightweight backend workflow: file upload handling, CSV analysis with pandas, typed response models with Pydantic, structured error handling, pytest coverage, Docker packaging, screenshots, and practical documentation.
 
-Repo: https://github.com/OnerGit/fastapi-csv-quality-api
+Repo: [OnerGit/fastapi-csv-quality-api](https://github.com/OnerGit/fastapi-csv-quality-api)
+
+Related writing: [Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker](https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld)
 
 ### ChatGPT Long Conversation Helper
 
 A privacy-first Tampermonkey userscript for collapsing and navigating long ChatGPT conversations locally in the browser.
 
-The project demonstrates a small browser-side developer tool: DOM-based UI enhancement, MutationObserver support, localStorage-based UI state, privacy-first boundaries, troubleshooting documentation, screenshots, and clear MVP scope.
+The project demonstrates a small browser-side developer tool: DOM-based UI enhancement, MutationObserver support, localStorage-based UI state, privacy-first boundaries, manual testing, troubleshooting documentation, screenshots, and clear MVP scope.
 
-Repo: https://github.com/OnerGit/ChatGPT-Long-Conversation-Helper
+Repo: [OnerGit/ChatGPT-Long-Conversation-Helper](https://github.com/OnerGit/ChatGPT-Long-Conversation-Helper)
 
-## Writing and documentation
+Related writing: [AI-Assisted Development Is Not Autopilot](https://dev.to/bob_oner/ai-assisted-development-is-not-autopilot-15ie)
 
-I am building a portfolio of developer-facing writing samples focused on Python engineering, APIs, developer tools, browser-based productivity scripts, and practical project walkthroughs.
+## Writing samples
+
+* [AI-Assisted Development Is Not Autopilot](https://dev.to/bob_oner/ai-assisted-development-is-not-autopilot-15ie)
+  A practical reflection on using AI as a drafting tool while keeping scope, tests, documentation, privacy review, and human judgment in the engineering loop.
+
+* [Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker](https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld)
+  A step-by-step project walkthrough for building a small CSV quality-checking API with FastAPI, pandas, pytest, and Docker.
+
+* [Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations](https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations)
+  A browser-tool project note focused on local UI enhancement, userscript boundaries, and privacy-first design.
 
 ## Technical interests
 
