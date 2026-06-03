@@ -57,6 +57,7 @@ What it shows:
 * practical documentation and screenshots
 
 Repo: https://github.com/OnerGit/data-quality-etl-starter
+
 Related writing: https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
 
 ### FastAPI CSV Quality API
@@ -81,6 +82,7 @@ What it shows:
 * Swagger UI screenshots and documentation
 
 Repo: https://github.com/OnerGit/fastapi-csv-quality-api
+
 Related writing: https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld
 
 ### ChatGPT Long Conversation Helper
@@ -101,6 +103,7 @@ What it shows:
 * practical troubleshooting notes
 
 Repo: https://github.com/OnerGit/ChatGPT-Long-Conversation-Helper
+
 Related writing: https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765
 
 ## Writing samples
