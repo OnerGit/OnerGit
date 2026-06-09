@@ -9,9 +9,10 @@ My current focus is helping small teams turn messy API, CSV, Excel, and JSON dat
 * API / CSV / Excel / JSON data input
 * data cleaning, validation, and transformation
 * JSON flattening for reporting-ready tables
-* CSV, SQLite, and PostgreSQL output
-* data quality reports for handoff and review
-* lightweight FastAPI data services
+* data quality checks for handoff and review
+* CSV, SQLite, PostgreSQL, and Parquet output
+* lightweight summary tables for reporting workflows
+* lightweight FastAPI data validation services
 * pytest-based project checks
 * Docker-based local development
 * clear README files, screenshots, limitations, and usage notes
@@ -22,10 +23,12 @@ My current focus is helping small teams turn messy API, CSV, Excel, and JSON dat
 
 A small Python data quality ETL starter for cleaning, validating, exporting, and reporting messy CSV, Excel, JSON, and mock API-style data.
 
-This project demonstrates a repeatable data workflow:
+This is my main portfolio project for Python data workflow development.
+
+It demonstrates a repeatable data workflow:
 
 ```text
-messy CSV / Excel / JSON / mock API
+messy CSV / Excel / JSON / mock API-style data
         ↓
 read and flatten
         ↓
@@ -35,9 +38,25 @@ validate expected schema rules
         ↓
 clean duplicate rows and text values
         ↓
-export cleaned CSV + SQLite / PostgreSQL
+export cleaned CSV + SQLite / optional PostgreSQL
         ↓
-generate data quality report
+generate data quality reports
+```
+
+It also includes an optional analytics-ready path:
+
+```text
+generated messy order data
+        ↓
+existing validation and cleaning logic
+        ↓
+cleaned CSV
+        ↓
+cleaned Parquet
+        ↓
+DuckDB query demo
+        ↓
+summary CSV tables + benchmark report
 ```
 
 What it shows:
@@ -50,7 +69,13 @@ What it shows:
 * cleaned CSV output
 * SQLite output by default
 * optional PostgreSQL export
-* Markdown and JSON quality reports
+* optional FastAPI validation service
+* optional generated order data for larger workflow demos
+* optional analytics-ready CSV and Parquet export
+* optional DuckDB local analytics query demo
+* Markdown and JSON data quality reports
+* lightweight summary tables
+* benchmark report
 * CLI execution
 * pytest tests
 * Docker-based execution
@@ -58,7 +83,13 @@ What it shows:
 
 Repo: https://github.com/OnerGit/data-quality-etl-starter
 
-Related writing: https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
+Related writing:
+
+* From Data Quality Checks to Analytics-Ready Parquet with Python
+  https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd
+
+* Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data
+  https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
 
 ### FastAPI CSV Quality API
 
@@ -83,7 +114,10 @@ What it shows:
 
 Repo: https://github.com/OnerGit/fastapi-csv-quality-api
 
-Related writing: https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld
+Related writing:
+
+* Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker
+  https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld
 
 ### ChatGPT Long Conversation Helper
 
@@ -104,11 +138,17 @@ What it shows:
 
 Repo: https://github.com/OnerGit/ChatGPT-Long-Conversation-Helper
 
-Related writing: https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765
+Related writing:
+
+* Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations
+  https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765
 
 ## Writing samples
 
 ### Project-based tutorials
+
+* From Data Quality Checks to Analytics-Ready Parquet with Python
+  https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd
 
 * Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data
   https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
@@ -134,9 +174,26 @@ I prefer small, practical engineering projects that are:
 * honest about limitations
 * based on realistic workflow problems
 * structured for handoff and maintenance
+* simple enough for a client or reviewer to inspect
 
 I do not try to present every project as production infrastructure. I focus on clear, reviewable starter projects that can be adapted into client-specific workflows.
 
+## What I can help with
+
+My current portfolio is most relevant to projects such as:
+
+* cleaning messy CSV or Excel files
+* validating required columns before reporting
+* converting nested JSON into tabular data
+* turning API-style data into CSV / Excel-ready outputs
+* building repeatable Python ETL scripts
+* generating data quality reports
+* exporting cleaned data to SQLite or PostgreSQL
+* preparing cleaned CSV / Parquet files for local analytics
+* creating lightweight summary tables for reporting
+* packaging a data validation workflow as a small FastAPI service
+* adding tests, documentation, and handoff notes to existing scripts
+
 ## Core stack
 
-Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, reporting automation, browser userscripts, and technical documentation.
+Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, reporting automation, browser userscripts, and technical documentation.
