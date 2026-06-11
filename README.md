@@ -11,7 +11,8 @@ My current focus is helping small teams turn messy API, CSV, Excel, and JSON dat
 * JSON flattening for reporting-ready tables
 * data quality checks for handoff and review
 * CSV, SQLite, PostgreSQL, and Parquet output
-* lightweight summary tables for reporting workflows
+* PostgreSQL reporting tables and lightweight SQL views
+* BI-ready handoff notes for local reporting workflows
 * lightweight FastAPI data validation services
 * pytest-based project checks
 * Docker-based local development
@@ -59,6 +60,22 @@ DuckDB query demo
 summary CSV tables + benchmark report
 ```
 
+It also includes an optional BI-ready path:
+
+```text
+generated messy order data
+        ↓
+validation and cleaning workflow
+        ↓
+analytics-ready order rows
+        ↓
+PostgreSQL reporting tables
+        ↓
+lightweight SQL views
+        ↓
+optional Metabase local dashboard demo
+```
+
 What it shows:
 
 * CSV, Excel, JSON, and mock API-style input
@@ -73,9 +90,11 @@ What it shows:
 * optional generated order data for larger workflow demos
 * optional analytics-ready CSV and Parquet export
 * optional DuckDB local analytics query demo
+* optional PostgreSQL reporting tables and SQL views
+* optional Metabase local dashboard demo
 * Markdown and JSON data quality reports
 * lightweight summary tables
-* benchmark report
+* benchmark report and BI summary report
 * CLI execution
 * pytest tests
 * Docker-based execution
@@ -84,6 +103,9 @@ What it shows:
 Repo: https://github.com/OnerGit/data-quality-etl-starter
 
 Related writing:
+
+* From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase
+  https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p
 
 * From Data Quality Checks to Analytics-Ready Parquet with Python
   https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd
@@ -147,6 +169,9 @@ Related writing:
 
 ### Project-based tutorials
 
+* From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase
+  https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p
+
 * From Data Quality Checks to Analytics-Ready Parquet with Python
   https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd
 
@@ -191,9 +216,26 @@ My current portfolio is most relevant to projects such as:
 * exporting cleaned data to SQLite or PostgreSQL
 * preparing cleaned CSV / Parquet files for local analytics
 * creating lightweight summary tables for reporting
+* preparing PostgreSQL reporting tables and SQL views
+* creating BI-ready handoff notes for local reporting workflows
 * packaging a data validation workflow as a small FastAPI service
 * adding tests, documentation, and handoff notes to existing scripts
 
+## What this is not
+
+My current portfolio is intentionally not focused on:
+
+* enterprise data platforms
+* production data warehouses
+* Airflow / dbt / Spark pipelines
+* Snowflake / Databricks projects
+* full-stack SaaS applications
+* AI agents or RAG chatbots
+* large-scale cloud deployment
+* production BI platform management
+
+The current goal is narrower: small, runnable, testable Python data workflows for cleaning, validation, export, reporting preparation, and handoff.
+
 ## Core stack
 
-Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, reporting automation, browser userscripts, and technical documentation.
+Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, SQL views, reporting automation, browser userscripts, and technical documentation.
