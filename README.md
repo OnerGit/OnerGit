@@ -13,6 +13,7 @@ My current focus is helping small teams turn messy API, CSV, Excel, and JSON dat
 * CSV, SQLite, PostgreSQL, and Parquet output
 * PostgreSQL reporting tables and lightweight SQL views
 * BI-ready handoff notes for local reporting workflows
+* AI-ready data handoff artifacts without calling LLM APIs
 * lightweight FastAPI data validation services
 * pytest-based project checks
 * Docker-based local development
@@ -76,6 +77,28 @@ lightweight SQL views
 optional Metabase local dashboard demo
 ```
 
+It also includes an optional AI-ready data preparation path:
+
+```text
+generated messy order data
+        ↓
+validation and cleaning workflow
+        ↓
+cleaned orders dataset
+        ↓
+schema profile JSON
+        ↓
+data dictionary JSON
+        ↓
+validation summary JSON
+        ↓
+feature-ready CSV
+        ↓
+embedding-ready text field extract
+        ↓
+AI-ready manifest + Markdown summary report
+```
+
 What it shows:
 
 * CSV, Excel, JSON, and mock API-style input
@@ -92,6 +115,13 @@ What it shows:
 * optional DuckDB local analytics query demo
 * optional PostgreSQL reporting tables and SQL views
 * optional Metabase local dashboard demo
+* optional AI-ready data preparation artifacts
+* schema profile JSON
+* data dictionary JSON
+* validation summary JSON
+* feature-ready CSV output
+* embedding-ready text field extract
+* AI-ready manifest and Markdown summary report
 * Markdown and JSON data quality reports
 * lightweight summary tables
 * benchmark report and BI summary report
@@ -103,6 +133,9 @@ What it shows:
 Repo: https://github.com/OnerGit/data-quality-etl-starter
 
 Related writing:
+
+* Preparing AI-Ready Data Without Calling an LLM API
+  https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf
 
 * From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase
   https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p
@@ -169,6 +202,9 @@ Related writing:
 
 ### Project-based tutorials
 
+* Preparing AI-Ready Data Without Calling an LLM API
+  https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf
+
 * From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase
   https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p
 
@@ -218,6 +254,11 @@ My current portfolio is most relevant to projects such as:
 * creating lightweight summary tables for reporting
 * preparing PostgreSQL reporting tables and SQL views
 * creating BI-ready handoff notes for local reporting workflows
+* preparing schema profiles and data dictionaries
+* creating validation summaries for downstream review
+* preparing feature-ready CSV files
+* extracting embedding-ready text fields without generating embeddings
+* creating AI-ready data manifests without calling LLM APIs
 * packaging a data validation workflow as a small FastAPI service
 * adding tests, documentation, and handoff notes to existing scripts
 
@@ -230,12 +271,19 @@ My current portfolio is intentionally not focused on:
 * Airflow / dbt / Spark pipelines
 * Snowflake / Databricks projects
 * full-stack SaaS applications
-* AI agents or RAG chatbots
-* large-scale cloud deployment
 * production BI platform management
+* Metabase production deployment
+* LLM applications
+* LLM-based data cleaning tools
+* embedding generation pipelines
+* vector database projects
+* machine learning training pipelines
+* prompt engineering frameworks
+* RAG chatbots
+* AI agents
 
-The current goal is narrower: small, runnable, testable Python data workflows for cleaning, validation, export, reporting preparation, and handoff.
+The current goal is narrower: small, runnable, testable Python data workflows for cleaning, validation, export, reporting preparation, AI-ready data handoff, and documentation.
 
 ## Core stack
 
-Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, SQL views, reporting automation, browser userscripts, and technical documentation.
+Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, SQL views, reporting automation, schema profiling, data dictionaries, validation summaries, browser userscripts, and technical documentation.
