@@ -156,20 +156,15 @@ Repo: https://github.com/OnerGit/data-quality-etl-starter
 
 Related writing:
 
-* Running a Real Retail Dataset Through a Python Data Quality Workflow
-  https://dev.to/bob_oner/running-a-real-retail-dataset-through-a-python-data-quality-workflow-490b
+* [Running a Real Retail Dataset Through a Python Data Quality Workflow](https://dev.to/bob_oner/running-a-real-retail-dataset-through-a-python-data-quality-workflow-490b)
 
-* Preparing AI-Ready Data Without Calling an LLM API
-  https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf
+* [Preparing AI-Ready Data Without Calling an LLM API](https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf)
 
-* From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase
-  https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p
+* [From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase](https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p)
 
-* From Data Quality Checks to Analytics-Ready Parquet with Python
-  https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd
+* [From Data Quality Checks to Analytics-Ready Parquet with Python](https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd)
 
-* Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data
-  https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
+* [Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data](https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b)
 
 ### Shopify-Style API Reporting Workflow
 
@@ -215,11 +210,9 @@ Repo: https://github.com/OnerGit/shopify-api-reporting-workflow
 
 Related writing:
 
-* From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study
-  https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f
+* [From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study](https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f)
 
-* Designing a Shopify-style API Reporting Workflow as a Public Case Study
-  https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f
+* [Designing a Shopify-style API Reporting Workflow as a Public Case Study](https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f)
 
 This repository is intentionally a public case-study asset, not a public runnable package. The goal is to show workflow design, output expectations, implementation boundaries, and delivery judgment without exposing reusable private code, credentials, store domains, or client-sensitive material.
 
@@ -248,8 +241,7 @@ Repo: https://github.com/OnerGit/fastapi-csv-quality-api
 
 Related writing:
 
-* Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker
-  https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld
+* [Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker](https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld)
 
 ### ChatGPT Long Conversation Helper
 
@@ -272,44 +264,33 @@ Repo: https://github.com/OnerGit/ChatGPT-Long-Conversation-Helper
 
 Related writing:
 
-* Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations
-  https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765
+* [Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations](https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765)
 
 ## Writing samples
 
 ### Project-based tutorials and case studies
 
-* From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study
-  https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f
+* [From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study](https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f)
 
-* Designing a Shopify-style API Reporting Workflow as a Public Case Study
-  https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f
+* [Designing a Shopify-style API Reporting Workflow as a Public Case Study](https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f)
 
-* Running a Real Retail Dataset Through a Python Data Quality Workflow
-  https://dev.to/bob_oner/running-a-real-retail-dataset-through-a-python-data-quality-workflow-490b
+* [Running a Real Retail Dataset Through a Python Data Quality Workflow](https://dev.to/bob_oner/running-a-real-retail-dataset-through-a-python-data-quality-workflow-490b)
 
-* Preparing AI-Ready Data Without Calling an LLM API
-  https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf
+* [Preparing AI-Ready Data Without Calling an LLM API](https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf)
 
-* From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase
-  https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p
+* [From Clean Data to BI-Ready Reporting Tables with Python, PostgreSQL, and Metabase](https://dev.to/bob_oner/from-clean-data-to-bi-ready-reporting-tables-with-python-postgresql-and-metabase-348p)
 
-* From Data Quality Checks to Analytics-Ready Parquet with Python
-  https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd
+* [From Data Quality Checks to Analytics-Ready Parquet with Python](https://dev.to/bob_oner/from-data-quality-checks-to-analytics-ready-parquet-with-python-39bd)
 
-* Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data
-  https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
+* [Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data](https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b)
 
-* Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker
-  https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld
+* [Build a CSV Data Quality API with FastAPI, Pandas, Pytest, and Docker](https://dev.to/bob_oner/build-a-csv-data-quality-api-with-fastapi-pandas-pytest-and-docker-28ld)
 
-* Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations
-  https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765
+* [Build a Privacy-First Tampermonkey Script for Long ChatGPT Conversations](https://dev.to/bob_oner/build-a-privacy-first-tampermonkey-script-for-long-chatgpt-conversations-2765)
 
 ### Engineering reflection
 
-* AI-Assisted Development Is Not Autopilot
-  https://dev.to/bob_oner/ai-assisted-development-is-not-autopilot-15ie
+* [AI-Assisted Development Is Not Autopilot](https://dev.to/bob_oner/ai-assisted-development-is-not-autopilot-15ie)
 
 ## Working style
 
