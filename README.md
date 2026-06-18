@@ -2,7 +2,7 @@
 
 I'm a Python Data Workflow Developer building small, reproducible projects for API data extraction, CSV/Excel data cleaning, JSON transformation, ETL, data validation, and reporting automation.
 
-My current focus is helping small teams turn messy API, CSV, Excel, and JSON data into clean, validated, reporting-ready workflows.
+My current focus is helping small teams turn messy API, CSV, Excel, JSON, retail, and Shopify-style data into clean, validated, reporting-ready workflows.
 
 ## Current focus
 
@@ -14,6 +14,8 @@ My current focus is helping small teams turn messy API, CSV, Excel, and JSON dat
 * PostgreSQL reporting tables and lightweight SQL views
 * BI-ready handoff notes for local reporting workflows
 * AI-ready data handoff artifacts without calling LLM APIs
+* real retail dataset workflow validation and local benchmark evidence
+* Shopify-style API reporting workflow case studies
 * lightweight FastAPI data validation services
 * pytest-based project checks
 * Docker-based local development
@@ -99,6 +101,22 @@ embedding-ready text field extract
 AI-ready manifest + Markdown summary report
 ```
 
+It also includes an optional real retail dataset benchmark path:
+
+```text
+manually downloaded public retail dataset
+        ↓
+prepare and normalize source columns
+        ↓
+existing validation and cleaning workflow
+        ↓
+quality reports + SQLite export
+        ↓
+local benchmark report
+        ↓
+summary CSV outputs
+```
+
 What it shows:
 
 * CSV, Excel, JSON, and mock API-style input
@@ -122,6 +140,10 @@ What it shows:
 * feature-ready CSV output
 * embedding-ready text field extract
 * AI-ready manifest and Markdown summary report
+* optional real retail dataset preparation
+* local benchmark report
+* retail summary CSV outputs
+* source and license notes
 * Markdown and JSON data quality reports
 * lightweight summary tables
 * benchmark report and BI summary report
@@ -134,6 +156,9 @@ Repo: https://github.com/OnerGit/data-quality-etl-starter
 
 Related writing:
 
+* Running a Real Retail Dataset Through a Python Data Quality Workflow
+  https://dev.to/bob_oner/running-a-real-retail-dataset-through-a-python-data-quality-workflow-490b
+
 * Preparing AI-Ready Data Without Calling an LLM API
   https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf
 
@@ -145,6 +170,58 @@ Related writing:
 
 * Build a Python Data Quality ETL Starter for Messy CSV, Excel, JSON, and API-Style Data
   https://dev.to/bob_oner/build-a-python-data-quality-etl-starter-for-messy-csv-excel-json-and-api-style-data-46b
+
+### Shopify-Style API Reporting Workflow
+
+A public case study for turning Shopify-style order, product, customer, and line-item data into validated, normalized, reporting-ready outputs.
+
+This is my vertical e-commerce reporting workflow case study. It applies the same data workflow thinking from `data-quality-etl-starter` to a more specific client-style scenario.
+
+The workflow shape is:
+
+```text
+Shopify-style API data
+        ↓
+pagination-aware workflow design
+        ↓
+field mapping
+        ↓
+normalized reporting tables
+        ↓
+validation and review
+        ↓
+CSV / Excel / SQLite outputs
+        ↓
+Markdown report preview
+```
+
+What it shows:
+
+* Shopify-style order, product, customer, and line-item data
+* mock REST-style workflow evidence
+* GraphQL-shaped mock response planning
+* pagination-aware reporting workflow design
+* field mapping and normalization notes
+* CSV / Excel-style output expectations
+* SQLite-style reporting table previews
+* Markdown report preview
+* screenshots and public-safe sample outputs
+* implementation boundary notes
+* delivery workflow planning
+* privacy and customer-data boundary notes
+* public/private asset separation
+
+Repo: https://github.com/OnerGit/shopify-api-reporting-workflow
+
+Related writing:
+
+* From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study
+  https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f
+
+* Designing a Shopify-style API Reporting Workflow as a Public Case Study
+  https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f
+
+This repository is intentionally a public case-study asset, not a public runnable package. The goal is to show workflow design, output expectations, implementation boundaries, and delivery judgment without exposing reusable private code, credentials, store domains, or client-sensitive material.
 
 ### FastAPI CSV Quality API
 
@@ -200,7 +277,16 @@ Related writing:
 
 ## Writing samples
 
-### Project-based tutorials
+### Project-based tutorials and case studies
+
+* From Mock API Workflow to Delivery-Ready Asset: Extending a Shopify-style Reporting Case Study
+  https://dev.to/bob_oner/from-mock-api-workflow-to-delivery-ready-asset-extending-a-shopify-style-reporting-case-study-558f
+
+* Designing a Shopify-style API Reporting Workflow as a Public Case Study
+  https://dev.to/bob_oner/designing-a-shopify-style-api-reporting-workflow-as-a-public-case-study-3f9f
+
+* Running a Real Retail Dataset Through a Python Data Quality Workflow
+  https://dev.to/bob_oner/running-a-real-retail-dataset-through-a-python-data-quality-workflow-490b
 
 * Preparing AI-Ready Data Without Calling an LLM API
   https://dev.to/bob_oner/preparing-ai-ready-data-without-calling-an-llm-api-5daf
@@ -229,7 +315,7 @@ Related writing:
 
 I prefer small, practical engineering projects that are:
 
-* runnable locally
+* runnable locally when appropriate
 * easy to test
 * clearly documented
 * honest about limitations
@@ -237,7 +323,7 @@ I prefer small, practical engineering projects that are:
 * structured for handoff and maintenance
 * simple enough for a client or reviewer to inspect
 
-I do not try to present every project as production infrastructure. I focus on clear, reviewable starter projects that can be adapted into client-specific workflows.
+I do not try to present every project as production infrastructure. I focus on clear, reviewable starter projects and case studies that can be adapted into client-specific workflows.
 
 ## What I can help with
 
@@ -259,8 +345,13 @@ My current portfolio is most relevant to projects such as:
 * preparing feature-ready CSV files
 * extracting embedding-ready text fields without generating embeddings
 * creating AI-ready data manifests without calling LLM APIs
+* preparing public retail dataset benchmark workflows
+* summarizing retail transaction datasets into reporting-ready CSV outputs
+* designing Shopify-style API reporting workflow structures
+* mapping order, product, customer, and line-item style data into reporting tables
+* preparing CSV / Excel / SQLite / Markdown reporting outputs
 * packaging a data validation workflow as a small FastAPI service
-* adding tests, documentation, and handoff notes to existing scripts
+* adding tests, documentation, screenshots, and handoff notes to existing scripts
 
 ## What this is not
 
@@ -281,9 +372,15 @@ My current portfolio is intentionally not focused on:
 * prompt engineering frameworks
 * RAG chatbots
 * AI agents
+* Shopify app development
+* production Shopify connectors
+* public Shopify credential handling
+* e-commerce web scraping
+* lead scraping or gray automation
+* complete field mapping templates for every store
 
-The current goal is narrower: small, runnable, testable Python data workflows for cleaning, validation, export, reporting preparation, AI-ready data handoff, and documentation.
+The current goal is narrower: small, runnable, testable Python data workflows and public-safe case studies for cleaning, validation, export, reporting preparation, AI-ready data handoff, Shopify-style reporting workflow design, and documentation.
 
 ## Core stack
 
-Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, SQL views, reporting automation, schema profiling, data dictionaries, validation summaries, browser userscripts, and technical documentation.
+Python, pandas, FastAPI, Pydantic, pytest, Docker, API integration, CSV/Excel processing, JSON flattening, data validation, ETL, SQLite, PostgreSQL, Parquet, DuckDB, SQL views, reporting automation, schema profiling, data dictionaries, validation summaries, public-safe workflow documentation, browser userscripts, and technical documentation.
