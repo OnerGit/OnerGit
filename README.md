@@ -1,127 +1,72 @@
-# Hi, I'm OnerGit
 
-I'm a **physics-background Quantum Computing Developer** focused on **applied quantum computing**: turning quantum computing concepts and algorithms into runnable, testable, reproducible software and experiments.
+# # Hi, I'm OnerGit
 
-My current direction combines **quantum software, algorithm implementation, simulation, validation, benchmarking, and application-oriented workflows**. I work primarily with **Python and Qiskit**, supported by a broader engineering background in testing, validation, automation, documentation, and reproducible workflow design.
+**Quantum Application R&D · Scientific Computing · Benchmark Engineering**
 
-## Current Focus
+I'm a physics-trained independent research practitioner with a **Master's degree in Space Physics from the University of Science and Technology of China (USTC)**. My work focuses on translating scientific and application-oriented problems into computational experiments, testable research software, and evidence-based evaluations.
 
-* Qiskit / Python quantum software
-* quantum circuit implementation and simulation
-* quantum algorithm implementation and reproduction
-* result validation and classical-baseline comparison
-* testing, debugging, and reproducibility
-* benchmark-oriented quantum experiments
-* small research, prototype, and proof-of-concept workflows
+I work primarily with **Python**, applying quantum and classical methods as appropriate. My interests include quantum circuit algorithms and compilation, numerical simulation, probabilistic methods, reproducible experiments, and transparent benchmark comparisons.
 
-My working model is:
+## Featured Research: Quantum Circuit Routing & Benchmarking
 
-```text
-Problem
-  ↓
-Classical formulation
-  ↓
-Quantum mapping
-  ↓
-Algorithm selection
-  ↓
-Implementation
-  ↓
-Simulation / experiment
-  ↓
-Validation + baseline comparison
-  ↓
-Benchmark + limitations
-  ↓
-Reproducible delivery
-```
+### [Quantum Routing Benchmark Study](https://github.com/OnerGit/quantum-routing-benchmark-study)
 
-## Featured Quantum Work
+An independent study of quantum circuit placement and routing heuristics, developed from my participation in the Q-SITE 2026 Open Computing track and subsequent comparative research.
 
-### Qiskit Quantum Workflow Starter
+- Explores placement, routing, and search mechanisms under the objective `SWAP count + 0.5 × circuit depth`.
+- Documents a deterministic routing implementation, external solver result reproduction, and controlled follow-up experiments.
+- Distinguishes recorded historical results, locally reproduced third-party results, and new local experiments.
+- Provides source code, tests, research notes, provenance records, and limitations, including negative findings.
 
-A small, reproducible **Qiskit 2.x** workflow for local quantum circuit simulation, validation, testing, and reporting.
+**Research evidence:** [Research report](https://github.com/OnerGit/quantum-routing-benchmark-study/blob/main/docs/RESEARCH_REPORT.md) · [Evidence index](https://github.com/OnerGit/quantum-routing-benchmark-study/blob/main/docs/EVIDENCE_INDEX.md) · [Limitations](https://github.com/OnerGit/quantum-routing-benchmark-study/blob/main/docs/LIMITATIONS.md)
 
-Current capabilities include:
+The study does not claim quantum advantage, global optimality, or general superiority across different search budgets.
 
-* Bell, GHZ, and two-qubit Grover toy workflows
-* local simulation with Qiskit Aer
-* seeded, shot-based execution
-* probability-tolerant result validation
-* pytest coverage
-* CLI and script entry points
-* JSON and Markdown reports
-* generated circuit images and public-safe screenshots
-* explicit limitations and reproducibility notes
+## Open-Source Contributions
 
-The project is intentionally bounded. It does **not** claim quantum advantage, production readiness, or hardware performance.
+I contribute problem diagnosis, correctness-focused fixes, and regression testing to quantum software projects. Selected pull requests:
 
-Its purpose is to demonstrate how small quantum experiments can be packaged as **inspectable, testable, reproducible engineering workflows**.
+| Project | Focus | Status (checked 2026-11-09) |
+| --- | --- | --- |
+| [Origin Quantum / pyqpanda-algorithm #50](https://github.com/OriginQ/pyqpanda-algorithm/pull/50) | QARM frequent-itemset support and association-rule correctness, with method corrections and regression tests | **Open PR; not merged** |
+| [qboson / kaiwu-pytorch-plugin #163](https://github.com/qboson/kaiwu-pytorch-plugin/pull/163) | Restore `torch.nn.Module.to()` argument semantics and module-device consistency, with regression tests | **Open PR; not merged** |
 
-**Repository:**
-[qiskit-quantum-workflow-starter](https://github.com/OnerGit/qiskit-quantum-workflow-starter)
+These links document proposed contributions; they do not imply that the pull requests have been accepted or that I authored the full upstream projects.
 
-## Quantum Learning
+## Selected Research Software & Python Engineering
 
-I currently hold **5 IBM Quantum Learning digital badges**:
+- [Qiskit Quantum Workflow Starter](https://github.com/OnerGit/qiskit-quantum-workflow-starter) — local circuit simulation with Qiskit Aer, reproducible configurations, validation, pytest tests, and report generation; an educational, non-production workflow.
+- [Data Quality ETL Starter](https://github.com/OnerGit/data-quality-etl-starter) — Python data-quality workflows with validation, transformation, export, testing, and technical reporting.
+- [FastAPI CSV Quality API](https://github.com/OnerGit/fastapi-csv-quality-api) — a small API example demonstrating structured data checks, automated tests, and Docker packaging.
 
-* Basics of Quantum Information
-* Fundamentals of Quantum Algorithms
-* General Formulation of Quantum Information
-* Variational Algorithm Design
-* Quantum Business Foundations
+## Physics Research Background
 
-I treat these badges as structured learning evidence. My main focus now is converting that foundation into stronger **engineering, open-source, benchmarking, and real-project evidence**.
+**Yong-Jian Jin**, Hui-Nan Zheng, and Zhen-Peng Su (2018). “Propagation and Damping of Two-Fluid Magnetohydrodynamic Waves in Stratified Solar Atmosphere.” *Chinese Physics Letters*, **35**(7), 075201. [DOI: 10.1088/0256-307X/35/7/075201](https://doi.org/10.1088/0256-307X/35/7/075201).
 
-## Engineering Foundation
+This peer-reviewed publication represents my foundation in theoretical and numerical plasma/space-physics research; it is not a quantum-computing publication.
 
-My earlier Python engineering work provides the software-engineering foundation for my current quantum computing work, especially in:
+## Research Practice & AI-Assisted Development
 
-* Python project structure
-* pytest-based testing
-* validation and quality checks
-* reproducible workflows
-* CLI and local execution
-* Docker-based environments
-* technical documentation
-* reports and handoff-oriented outputs
+My work typically includes **research framing, experimental design, method and benchmark selection, planning, result interpretation, iterative decisions, verification, and technical reporting**.
 
-Selected engineering projects:
+I use **AI-assisted programming and technical discussion** extensively during implementation and iteration. I assess results using tests, classical references where applicable, reproducibility checks, critical review, and explicit limitations. My emphasis is on sound experimental decisions and traceable evidence rather than unsupported performance claims.
 
-* [data-quality-etl-starter](https://github.com/OnerGit/data-quality-etl-starter) — Python data validation, ETL, testing, reporting, and reproducible workflows
-* [fastapi-csv-quality-api](https://github.com/OnerGit/fastapi-csv-quality-api) — a small FastAPI service with structured validation, pytest coverage, and Docker packaging
+## IBM Quantum Learning & Digital Credentials
 
-These projects are no longer my primary technical direction. They remain public as evidence of broader **Python engineering discipline and delivery practices**.
+I hold five publicly verifiable **IBM-issued digital badges**, documenting completion of the corresponding learning and assessment requirements:
 
-## What I Can Currently Help With
+1. [General Formulation of Quantum Information](https://www.credly.com/badges/b49acb5b-eba9-4280-b191-23e4e43f4a05/public_url) — issued 17 August 2026.
+2. [Variational Algorithm Design](https://www.credly.com/badges/3345e739-7570-4a99-8db1-80bc4e53b5d4/public_url) — issued 3 August 2026.
+3. [Quantum Business Foundations](https://www.credly.com/badges/800bd2e0-46f4-4787-b68b-76c5a0c071f1/public_url) — issued 20 July 2026.
+4. [Fundamentals of Quantum Algorithms](https://www.credly.com/badges/9af84fbc-2600-4837-87a7-9b6272c4d447/public_url) — issued 13 July 2026.
+5. [Basics of Quantum Information](https://www.credly.com/badges/d1aeaea4-95dc-48b8-9e34-5d247d868698/public_url) — issued 30 June 2026.
 
-My current portfolio is best aligned with bounded quantum software and research-implementation tasks such as:
+**Credential verification:** [IBM badges on Credly — Bob Oner](https://www.credly.com/users/bob-oner)
 
-* Qiskit circuit implementation
-* Qiskit notebook or script debugging
-* local quantum simulation with Qiskit Aer
-* small quantum algorithm implementations from defined methods
-* reproducible experiment setup
-* result validation and testing
-* classical-baseline comparison for small experiments
-* technical documentation and experiment reports
+These are learning credentials, distinct from research publications, competitive awards, or professional licensure.
 
-I am not positioning myself as a quantum hardware engineer, quantum research scientist, or inventor of new quantum algorithms.
+## PennyLane & Quantum Programming Practice
 
-My focus is **implementing, validating, engineering, and applying quantum computing methods**.
+- [PennyLane profile — OnerGit](https://pennylane.ai/profile/OnerGit)
 
-## Current Development Priorities
-
-The next stage of this profile is focused on increasing external and applied evidence through:
-
-1. stronger algorithm + benchmark repositories;
-2. meaningful open-source quantum contributions;
-3. real quantum software, simulation, or research-implementation projects.
-
-## Core Stack
-
-**Quantum:** Qiskit, Qiskit Aer, quantum circuits, quantum algorithms, simulation
-
-**Engineering:** Python, pytest, Git/GitHub, Docker, reproducible workflows, validation, technical documentation
-
-**Scientific foundation:** physics, linear algebra, quantum information, scientific computing
+I also participate in quantum programming challenges. My public portfolio focuses on research methods, reproducibility, and engineering evidence rather than publishing challenge solutions by default.
